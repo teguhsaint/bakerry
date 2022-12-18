@@ -27,6 +27,7 @@
                         <li><a href="#service">SERVICE</a></li>
                         <li><a href="#pantai">PRODUCT</a></li>
                         <li><a href="#daftar">PROMO</a></li>
+                        <li><a href="#daftar">PEMESANAN</a></li>
                     </ul>
                     <i class="fa-solid fa-bars menu-bar"></i>
                 </div>
