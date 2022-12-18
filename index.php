@@ -12,7 +12,7 @@
     <title>Bakery</title>
 </head>
 
-<body>
+<body style="min-height: 200vh;">
 
     <!-- NAVBAR START -->
     <header>
