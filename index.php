@@ -33,7 +33,7 @@
                 </div>
             </div>
         </div>
-        <div class="hero">
+        <div class="hero" id="home">
             <div class="container">
                 <div class="box-hero">
                     <div class="box">
@@ -77,7 +77,6 @@
             </div>
         </div>
     </div>
-
     <!-- SERVICE END -->
 
     <!-- PRODUCT START -->
@@ -90,7 +89,7 @@
     <!-- PEMESANAN END -->
 
     <!-- MY TEAM START -->
-    <div class="myteam">
+    <div class="myteam" id="myteam">
         <div class="container">
             <div class="jdl">
                 <h1>MY TEAM</h1>
