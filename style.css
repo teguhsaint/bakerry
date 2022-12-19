@@ -267,3 +267,57 @@ header {
 .footer .box-footer .box:nth-child(2) span {
     font-weight: bold;
 }
+
+.konten_cards {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    padding: 20px 0px 20px 0px;
+    margin: 50px 0 50px 0;
+
+    grid-auto-rows: auto;
+
+    grid-gap: 1rem;
+}
+
+.card_new {
+    cursor: pointer;
+
+    border: 1px solid #e7e7e7;
+
+    border-radius: 4px;
+    overflow: hidden;
+
+    height: 400px;
+    background-image: url(https://images.pexels.com/photos/3338681/pexels-photo-3338681.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+}
+
+.card-overlay {
+    cursor: pointer;
+    border-radius: 20px;
+    display: block;
+    height: 120px;
+
+    position: relative;
+    background-color: #ffffff;
+    bottom: -300px;
+    left: 0px;
+    padding-left: 10px;
+    padding-top: 2px;
+    color: black;
+
+
+    transition-duration: 0.3s;
+}
+
+.card_new:hover .card-overlay {
+    border-radius: 0px;
+    bottom: 0px;
+    height: 500px;
+    background-color: #222222ff;
+    color: white;
+
+}
