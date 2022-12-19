@@ -88,7 +88,7 @@ header {
     top: 10px;
     left: 50%;
     background-color: #ffffff;
-    transition-duration: 0.3s;
+    transition-duration: 0.5s;
 }
 
 .navbar .box-navbar .menu li a:hover:after {
@@ -186,7 +186,39 @@ header {
 }
 
 
-/*  */
+/* PEMESANAN */
+.pesanan {
+    text-align: center;
+}
+.pesanan .box-pesanan .box {
+    width: 100%;
+    font-size: 20px;
+}
+.pesanan .box-pesanan .box label {
+    color: white;
+}
+.pesanan .box-pesanan .box input {
+    width: 800px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+.pesanan .box-pesanan .box .button {
+    width: 200px;
+    border: none;
+    border-color: purple;
+    box-shadow: none;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #966e00;
+    color: white;
+}
+.pesanan .box-pesanan .box .button:hover {
+    background-color: #644a01;
+}
 
 
 /* MYTEAM */
@@ -206,15 +238,10 @@ header {
     }
 .myteam .box-myteam .box{
         text-align: center;
-        color: white;
-        transition: all 0.3s ease;
-        -webkit-transition: all 0.3s ease;
-        -moz-transition: all 0.3s ease;
-        -ms-transition: all 0.3s ease;
-        -o-transition: all 0.3s ease;
+        transition-duration: 0.1s;
     }
 .myteam .box-myteam .box:hover {
-    transform: translateY(-20px);
+    transform: translateY(-50px) !important;
 }
 .myteam .box-myteam .box img {
     width: 300px;

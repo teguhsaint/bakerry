@@ -55,23 +55,23 @@
     <!-- NAVBAR END -->
 
     <!-- SERVICE START -->
-    <div class="service" id="service" data-aos="fade-up" data-aos-duration="1000">
+    <div class="service" id="service" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
         <div class="container">
             <div class="jdl">
                 <h1>SERVICE</h1>
             </div>
             <div class="box-service">
-                <div class="box">
+                <div class="box" data-aos="fade-up-right" data-aos-duration="1000">
                     <i class="fa-solid fa-coins"></i>
                     <h4>Harga Terjangkau</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, optio.</p>
                 </div>
-                <div class="box">
+                <div class="box" data-aos="zoom-in" data-aos-duration="1000">
                     <i class="fa-solid fa-certificate"></i>
                     <h4>Sudah Terverifikasi</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, optio.</p>
                 </div>
-                <div class="box">
+                <div class="box" data-aos="fade-up-left" data-aos-duration="1000">
                     <i class="fa-solid fa-people-roof"></i>
                     <h4>Aman dan Terpercaya</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, optio.</p>
@@ -86,48 +86,77 @@
     <!-- PRODUCT END -->
 
     <!-- PEMESANAN START -->
-
+    <div class="pesanan" id="pemesanan" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+            <div class="box-pesanan">
+                <div class="jdl">
+                    <h1>PEMESANAN</h2>
+                </div>
+                <div class="box">
+                    <label for="namapesanan" data-aos="fade-right" data-aos-duration="1000">Nama Lengkap</label>
+                    <br>
+                    <input type="text" name="namapesanan" data-aos="fade-left" data-aos-duration="1000">
+                    <br>
+                    <br>
+                    <br>
+                    <label for="NamaMenu" data-aos="fade-right" data-aos-duration="1000">Nama Menu</label>
+                    <br>
+                    <input type="text" name="NamaMenu" data-aos="fade-left" data-aos-duration="1000">
+                    <br>
+                    <br>
+                    <br>
+                    <label for="JumlahPesanan" data-aos="fade-right" data-aos-duration="1000">Jumlah Pesanan</label>
+                    <br>
+                    <input type="number" name="JumlahPesanan" data-aos="fade-left" data-aos-duration="1000">
+                    <br>
+                    <br>
+                    <br>
+                    <input class="button" type="submit" value="Simpan Pesanan" data-aos="zoom-in" data-aos-duration="1000">
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- PEMESANAN END -->
 
     <!-- MY TEAM START -->
-    <div class="myteam" id="myteam" data-aos="fade-up" data-aos-duration="3000">
+    <div class="myteam" id="myteam" data-aos="fade-up" data-aos-duration="1000">
         <div class="container">
             <div class="jdl">
                 <h1>MY TEAM</h1>
             </div>
             <div class="box-myteam">
-                <div class="box">
+                <div class="box" data-aos="fade-right" data-aos-duration="500">
                     <img src="https://scontent.fsub8-1.fna.fbcdn.net/v/t1.18169-9/19732287_250219268805462_2782260732444763038_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=174925&_nc_eui2=AeFvgu0nVvsc4djU8kXCY5tPBvmvDFmlaJsG-a8MWaVom-RYvXjlS2I0agtQaIiINgSZeL82a_aNr1td7s6O7by1&_nc_ohc=3_lYJ2forIwAX_lzBM3&_nc_ht=scontent.fsub8-1.fna&oh=00_AfD03fAliL06mrHoCfcjDbyDHmK7GTl8BPD27widPqn2Yg&oe=63C76FAF" style="border-radius: 15px;" alt="">
-                    <h3 style="color: white;">RIYAN</h3>
+                    <h3 style="color: white;">MUHAMMAD DANIRIYAN PERMANA</h3>
                     <p style="color: white;">2202041106</p>
                     <button><i class="fa-brands fa-whatsapp"></i></button>
                     <button><i class="fa-brands fa-instagram"></i></button>
                     <button><i class="fa-brands fa-facebook"></i></button>
                     <button><i class="fa-brands fa-youtube"></i></button>
                 </div>
-                <div class="box">
+                <div class="box" data-aos="fade-left" data-aos-duration="500">
                     <img src="https://scontent.fsub8-2.fna.fbcdn.net/v/t1.18169-9/20431315_115086512477076_9179856307320647405_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=19026a&_nc_eui2=AeHGyEe_4WnmBfPq7xyMhr78gYhTjcit4n6BiFONyK3ifgN6LkMbQCrQCSpqwYkU4pnvGwe_gjYBu-UqS7SW13GV&_nc_ohc=PIr751l9sqkAX_CFs79&_nc_ht=scontent.fsub8-2.fna&oh=00_AfAKg0axb3dNmZj05HQE971XBmOZEJ8fdaAAXz2ExP_ZZg&oe=63C76417" style="border-radius: 15px;" alt="">
-                    <h3 style="color: white;">HUSNUN</h3>
+                    <h3 style="color: white;">MUHAMMAD HUSNUN NI'AM</h3>
                     <p style="color: white;">2353642</p>
                     <button><i class="fa-brands fa-whatsapp"></i></button>
                     <button><i class="fa-brands fa-instagram"></i></button>
                     <button><i class="fa-brands fa-facebook"></i></button>
                     <button><i class="fa-brands fa-youtube"></i></button>
                 </div>
-                <div class="box">
+                <div class="box" data-aos="fade-right" data-aos-duration="500">
                     <img src="https://scontent.fsub8-2.fna.fbcdn.net/v/t1.18169-9/20431315_115086512477076_9179856307320647405_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=19026a&_nc_eui2=AeHGyEe_4WnmBfPq7xyMhr78gYhTjcit4n6BiFONyK3ifgN6LkMbQCrQCSpqwYkU4pnvGwe_gjYBu-UqS7SW13GV&_nc_ohc=PIr751l9sqkAX_CFs79&_nc_ht=scontent.fsub8-2.fna&oh=00_AfAKg0axb3dNmZj05HQE971XBmOZEJ8fdaAAXz2ExP_ZZg&oe=63C76417" style="border-radius: 15px;" alt="">
-                    <h3 style="color: white;">JEJE</h3>
+                    <h3 style="color: white;">WILUJENG AMELIA</h3>
                     <p style="color: white;">6475838282</p>
                     <button><i class="fa-brands fa-whatsapp"></i></button>
                     <button><i class="fa-brands fa-instagram"></i></button>
                     <button><i class="fa-brands fa-facebook"></i></button>
                     <button><i class="fa-brands fa-youtube"></i></button>
                 </div>
-                <div class="box">
+                <div class="box" data-aos="fade-left" data-aos-duration="500">
                     <img src="https://scontent.fsub8-2.fna.fbcdn.net/v/t1.18169-9/20431315_115086512477076_9179856307320647405_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=19026a&_nc_eui2=AeHGyEe_4WnmBfPq7xyMhr78gYhTjcit4n6BiFONyK3ifgN6LkMbQCrQCSpqwYkU4pnvGwe_gjYBu-UqS7SW13GV&_nc_ohc=PIr751l9sqkAX_CFs79&_nc_ht=scontent.fsub8-2.fna&oh=00_AfAKg0axb3dNmZj05HQE971XBmOZEJ8fdaAAXz2ExP_ZZg&oe=63C76417" style="border-radius: 15px;" alt="">
-                    <h3 style="color: white;">JANCOKKKK</h3>
-                    <p style="color: white;">NIM BELUM TERSEDIA</p>
+                    <h3 style="color: white;">MUHAMMAD JAZA ILHAM ASY'ARI</h3>
+                    <p style="color: white;">223434523</p>
                     <button><i class="fa-brands fa-whatsapp"></i></button>
                     <button><i class="fa-brands fa-instagram"></i></button>
                     <button><i class="fa-brands fa-facebook"></i></button>
