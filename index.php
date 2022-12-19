@@ -9,6 +9,8 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css' integrity='sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==' crossorigin='anonymous' />
     <!-- LINK CSS -->
     <link rel="stylesheet" href="style.css">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Bakery</title>
 </head>
 
@@ -89,7 +91,7 @@
     <!-- PEMESANAN END -->
 
     <!-- MY TEAM START -->
-    <div class="myteam" id="myteam">
+    <div class="myteam" id="myteam" data-aos="fade-up" data-aos-duration="3000">
         <div class="container">
             <div class="jdl">
                 <h1>MY TEAM</h1>
@@ -159,6 +161,11 @@
 
     <!-- LINK JAVASCRIPT -->
     <script src='script.js'></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

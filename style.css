@@ -233,7 +233,7 @@ header {
     background-color: #080b0c;
     border: white;
     cursor: pointer;
-    transition:  all 0.5s ease;
+    transition:  all 0.3s ease;
 }
 .myteam .box-myteam .box button:hover {
    background-color: #7c5c02; 
@@ -242,7 +242,7 @@ header {
 
 /* FOOTER */
 .footer {
-    padding: 50px 0 50px 0;
+    padding: 30px 0 20px 0;
     background-color: #966e00;
 }
 
@@ -269,6 +269,7 @@ header {
 
 .footer .box-footer .box:nth-child(2) {
     text-align: center;
+    padding-left: 350px;
 }
 
 .footer .box-footer .box:nth-child(2) span {
