@@ -15,6 +15,18 @@
 </head>
 
 <body style="min-height: 200vh;">
+    <a class="wafixed" href="https://wa.me/085755739249" target="_blank">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa-brands fa-whatsapp fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+    <a class="igfixed" href="https://www.instagram.com/invites/contact/?i=h8foczvrrxs1&utm_content=1v5rtvo" target="_blank">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa-brands fa-instagram fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
 
     <!-- NAVBAR START -->
     <header>
