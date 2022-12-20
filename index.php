@@ -194,7 +194,7 @@
 
         <div class="footer-center">
             <div>
-                <a href="http://"><i class="fa-solid fa-location-dot"></i></a>
+                <a href="https://goo.gl/maps/awvvsSeAPDiaerPB8"><i class="fa-solid fa-location-dot"></i></a>
                 <p style="color: white;"><span>Indonesia</span> Jawa Timur, Jombang</p>
             </div>
             <div>
