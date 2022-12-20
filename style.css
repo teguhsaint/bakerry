@@ -17,7 +17,6 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 .container {
@@ -38,7 +37,7 @@ header {
 }
 
 .navbar.scrolling-active {
-    background-color: #b5c200;
+    background-color: #966e00;
     padding: 30px 0 30px 0;
 }
 
@@ -88,14 +87,14 @@ header {
     position: relative;
     top: 10px;
     left: 50%;
-    background-color: #080b0c;
+    background-color: #ffffff;
     transition-duration: 0.3s;
 }
 
 .navbar .box-navbar .menu li a:hover:after {
     left: 0;
     width: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 .menu-bar {
@@ -138,7 +137,7 @@ header {
 .hero .box-hero .box:nth-child(1) button {
     width: 180px;
     height: 50px;
-    background-color: #504646;
+    background-color: #966e00;
     font-weight: bold;
     color: white;
     border: none;
@@ -147,7 +146,7 @@ header {
 }
 
 .hero .box-hero .box:nth-child(1) button:hover {
-    background-color: #d9ff00;
+    background-color: #644a01;
 }
 
 .hero .box-hero .box:nth-child(2) img {
@@ -214,6 +213,9 @@ header {
         -ms-transition: all 0.3s ease;
         -o-transition: all 0.3s ease;
     }
+.myteam .box-myteam .box:hover {
+    transform: translateY(-20px);
+}
 .myteam .box-myteam .box img {
     width: 300px;
     height: 300px;
@@ -231,12 +233,17 @@ header {
     background-color: #080b0c;
     border: white;
     cursor: pointer;
+    transition:  all 0.5s ease;
 }
+.myteam .box-myteam .box button:hover {
+   background-color: #7c5c02; 
+}
+
 
 /* FOOTER */
 .footer {
     padding: 50px 0 50px 0;
-    background-color: #d9ff00;
+    background-color: #966e00;
 }
 
 .footer .box-footer {
@@ -268,6 +275,7 @@ header {
     font-weight: bold;
 }
 
+/* card */
 .konten_cards {
     display: grid;
 
