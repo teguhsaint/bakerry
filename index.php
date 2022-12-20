@@ -37,11 +37,11 @@
                         <h1>Bakery Berkah</h1>
                     </div>
                     <ul class="menu">
-                        <li><a href="#home">HOME</a></li>
-                        <li><a href="#service">SERVICE</a></li>
-                        <li><a href="#product">PRODUCT</a></li>
-                        <li><a href="#pemesanan">PEMESANAN</a></li>
-                        <li><a href="#myteam">MY TEAM</a></li>
+                        <li class="tod"><a href="#home">HOME</a></li>
+                        <li class="tod"><a href="#service">SERVICE</a></li>
+                        <li class="tod"><a href="#product">PRODUCT</a></li>
+                        <li class="tod"><a href="#pemesanan">PEMESANAN</a></li>
+                        <li class="tod"><a href="#myteam">MY TEAM</a></li>
                     </ul>
                     <i class="fa-solid fa-bars menu-bar"></i>
                 </div>
@@ -181,18 +181,50 @@
     <!-- MY TEAM END -->
 
     <!-- FOOTER START -->
-    <div class="footer">
-        <div class="container">
-            <div class="box-footer">
-                <div class="box">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.5001134821105!2d112.22967907425253!3d-7.520299774205788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e783fe13394c7d1%3A0xc62ce7791d01c2cd!2sUniversitas%20KH.%20Abdul%20Wahab%20Hasbullah!5e0!3m2!1sid!2sid!4v1671427100211!5m2!1sid!2sid" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div class="box">
-                    <p>&copy; Copyright by <span> Bakery Berkah </span> All Rights Reserved 2022, Indonesia</p>
-                </div>
+    <footer class="footer">
+        <div class="footer-left">
+            <h3>Payment Method</h3>
+            <div class="credit-cards">
+                <img src="img/visa.png" alt="">
+                <img src="img/mastercard.png" alt="">
+                <img src="img/paypal.png" alt="">
+            </div>
+            <p class="footer-copy">&copy; 2022 Bakery Berkah</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <a href="http://"><i class="fa-solid fa-location-dot"></i></a>
+                <p style="color: white;"><span>Indonesia</span> Jawa Timur, Jombang</p>
+            </div>
+            <div>
+                <a href="http://"><i class="fa fa-phone"></i></a>
+                <p style="color: white;">+628 575-573-9249</p>
+            </div>
+            <div>
+                <a href="mailto:"><i class="fa fa-envelope"></i></a>
+                <p style="color: white;">
+                    <a link rel="stylesheet" href="#">bakeryberkah@gmail.com </a>
+                </p>
             </div>
         </div>
-    </div>
+
+
+        <div class="footer-right">
+            <p class="footer-about">
+                <span>About</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ipsa qui et impedit architecto officia sint natus libero.
+                Quo autem error enim unde tenetur perspiciatis corrupti doloremque temporibus? Minima, rem.
+            </p>
+
+            <div class="footer-media">
+                <a href="http://"><i class="fa-brands fa-youtube"></i></a>
+                <a href="http://"><i class="fa-brands fa-facebook"></i></a>
+                <a href="http://"><i class="fa-brands fa-twitter"></i></a>
+                <a href="http://"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="http://"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
 
     <!-- FOOTER END -->
 
