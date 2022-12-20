@@ -95,57 +95,7 @@
     <!-- SERVICE END -->
 
     <!-- PRODUCT START -->
-    <div class="container">
-    <div class="konten width-80">
-        <h1>New Arivals</h1>
-
-        <div class="konten_cards">
-            <div class="card_new">
-                <div class="card-overlay">
-                    <h4>Roti bobo</h4>
-                    <h2 style="color:#ff3838; " class="mt-0">Rp.150,000</h2>
-                    <p>selamat menikmati</p>
-                    <p>Kelezatan Rasa original plain cake</p>
-                    <ul>
-                        <li> Yang diolah dengan baik</li>
-                        <li>  menjadikannya terasa lembut dimulut</li>
-                    </ul>
-                    <center><button>BUY NOW</button></center>
-                </div>
-            </div>
-        </div>    
-        <div class="konten_cards">
-            <div class="card_new">
-                <div class="card-overlay">
-                    <h4>Roti bobo</h4>
-                    <h2 style="color:#ff3838; " class="mt-0">Rp.150,000</h2>
-                    <p>selamat menikmati</p>
-                    <p>Kelezatan Rasa original plain cake</p>
-                    <ul>
-                        <li> Yang diolah dengan baik</li>
-                        <li>  menjadikannya terasa lembut dimulut</li>
-                    </ul>
-                    <center><button>BUY NOW</button></center>
-                </div>
-            </div>
-        </div>    
-        <div class="konten_cards">
-            <div class="card_new">
-                <div class="card-overlay">
-                    <h4>Roti bobo</h4>
-                    <h2 style="color:#ff3838; " class="mt-0">Rp.150,000</h2>
-                    <p>selamat menikmati</p>
-                    <p>Kelezatan Rasa original plain cake</p>
-                    <ul>
-                        <li> Yang diolah dengan baik</li>
-                        <li>  menjadikannya terasa lembut dimulut</li>
-                    </ul>
-                    <center><button>BUY NOW</button></center>
-                </div>
-            </div>
-        </div>    
-    </div>
- </div>
+    
     <!-- PRODUCT END -->
 
     <!-- PEMESANAN START -->
