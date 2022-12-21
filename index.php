@@ -95,7 +95,56 @@
     <!-- SERVICE END -->
 
     <!-- PRODUCT START -->
-    
+    <div class="container">
+    <div class="konten width-80">
+        <h1>PRODUK</h1>
+
+        <div class="konten_cards">
+            <div class="card_new" style="background-image:url('https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&w=600');">
+                <div class="card-overlay">
+                    <h4>Chiffon Mini cake</h4>
+                    <h2 style="color:#ff3838; ">Rp.150,000</h2>
+                    <p>Shirt dress warna navy-fuchsia ini memakai material bahan katun yang halus dan nyaman dipakai.</p>
+                    <p>Varian Rasa :</p>
+                    <ul>
+                        <li> Red velved</li>
+                        <li> chocholate cheese</li>
+                    </ul>
+                    <center><button>BUY NOW</button></center>
+                </div>
+            </div>
+            <div class="card_new" style="background-image:url('https://images.pexels.com/photos/1291712/pexels-photo-1291712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');">
+                <div class="card-overlay">
+                    <h4>chocholate caramel cake</h4>
+                    <h2 style="color:#ff3838; ">Rp.250,000</h2>
+                    <p>Shirt dress warna navy-fuchsia ini memakai material bahan katun yang halus dan nyaman dipakai.</p>
+                    <p>Varian Rasa :</p>
+                    <ul>
+                        <li> Strwberry cheese</li>
+                        <li> pandan cheese</li>
+                    </ul>
+                    <center><button>BUY NOW</button></center>
+                </div>
+            </div>
+            <div class="card_new" style="background-image:url('https://images.pexels.com/photos/4669210/pexels-photo-4669210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');">
+                <div class="card-overlay">
+                    <h4>cookies almond chips</h4>
+                    <h2 style="color:#ff3838; ">Rp.90,000</h2>
+                    <p>Shirt dress warna navy-fuchsia ini memakai material bahan katun yang halus dan nyaman dipakai.</p>
+                    <p>Varian Rasa :</p>
+                    <ul>
+                        <li> blueberry</li>
+                        <li> caramel</li>
+                    </ul>
+                    <center><button>BUY NOW</button></center>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
     <!-- PRODUCT END -->
 
     <!-- PEMESANAN START -->
