@@ -189,6 +189,27 @@ header {
     font-weight: 100;
 }
 
+.service .box-service .box button {
+    background-color: #000dca;
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    box-shadow: none;
+    border: none;
+}
+.service .box-service .box .btn-1 {
+    margin-top: 15px !important;
+}
+.service .box-service .box .btn-2 {
+    margin-top: 33px !important;
+}
+.service .box-service .box .btn-3 {
+    margin-top: 33px;
+}
+.service .box-service .box button:hover {
+    background-color: #080164;
+}
 
 .jdl {
     text-align: center;
@@ -218,6 +239,7 @@ header {
     font-size: 15px;
     text-align: center;
     font-weight: bold;
+    outline: none;
 }
 
 .pesanan .box-pesanan .box .button {
@@ -491,7 +513,7 @@ footer {
     border-radius: 20px;
     display: block;
     height: 120px;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
     background-color: #ffffff;
     bottom: -300px;
@@ -503,12 +525,30 @@ footer {
 
     transition-duration: 0.3s;
 }
+.card_new .card-overlay li {
+    list-style-type: none;
+    text-align: center;
+    align-items: center;
+    margin-right: 60px;
+}
 
 .card_new:hover .card-overlay {
     border-radius: 0px;
     bottom: 0px;
     height: 500px;
-    background-color: #222222ff;
+    background-color: rgb(0, 0, 0);
     color: white;
 
+}
+
+.card_new .card-overlay button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: #0050b3;
+    cursor: pointer;
+    font-weight: bold;
+}
+.card_new .card-overlay button:hover {
+    background-color: #000dca;
 }
