@@ -445,6 +445,15 @@ footer {
     z-index: 9999;
 }
 /* card produk */
+
+.product {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    padding: 100px 0 50px 0;
+}
+
 .container {
     width: 80%;
     padding-top: 3px;

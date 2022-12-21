@@ -53,8 +53,7 @@
                     <div class="box">
                         <h1>Roti Pilihan Terbaik <br>
                             Kado Spesial Untuk Keluarga</h1>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit. Sint, alias!</p>
+                        <p>Temukan kebahagiaanmu di dalam kreasi kue kami yang nikmat dengan tampilan nan memikat</p>
                         <button>Selengkapnya</button>
                     </div>
                     <div class="box">
@@ -74,19 +73,22 @@
             </div>
             <div class="box-service">
                 <div class="box" data-aos="fade-up-right" data-aos-duration="1000">
-                    <i class="fa-solid fa-coins"></i>
-                    <h4>Harga Terjangkau</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, optio.</p>
+                    <i class="fa-solid fa-shop"></i>
+                    <h4>Pengambilan Di Toko</h4>
+                    <p>Pesan di website dan jemput kuemu langsung ditoko, sambil berkenalan dengan kreasi lainnya yang tak kalah nikmat.</p>
+                    <center><button>Info Toko</button></center>
                 </div>
                 <div class="box" data-aos="zoom-in" data-aos-duration="1000">
-                    <i class="fa-solid fa-certificate"></i>
-                    <h4>Sudah Terverifikasi</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, optio.</p>
+                    <i class="fa-solid fa-truck"></i>
+                    <h4>Pengiriman Seluruh Indonesia</h4>
+                    <p>Nikmati kue pilihan Bakery Berkah dimanapun anda berada, layanan pengiriman ke seluruh Indonesia.</p>
+                    <center><button>Pesan Sekarang</button></center>
                 </div>
                 <div class="box" data-aos="fade-up-left" data-aos-duration="1000">
-                    <i class="fa-solid fa-people-roof"></i>
-                    <h4>Aman dan Terpercaya</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, optio.</p>
+                    <i class="fa-light fa-moped"></i>
+                    <h4>Layanan Antar</h4>
+                    <p>Pengantaran lebih aman dengan kurir internal Bakery Berkah yang Berpengalaman.</p>
+                    <center><button>Info Pengiriman</button></center>
                 </div>
             </div>
         </div>
@@ -95,54 +97,55 @@
     <!-- SERVICE END -->
 
     <!-- PRODUCT START -->
-    <div class="container">
-    <div class="konten width-80">
-        <h1>PRODUK</h1>
+    <div class="Product" id="product" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+        <div class="container">
+            <div class="konten width-80">
+            <h1>PRODUCT</h1>
 
-        <div class="konten_cards">
-            <div class="card_new" style="background-image:url('https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&w=600');">
-                <div class="card-overlay">
-                    <h4>Chiffon Mini cake</h4>
-                    <h2 style="color:#ff3838; ">Rp.150,000</h2>
-                    <p>Shirt dress warna navy-fuchsia ini memakai material bahan katun yang halus dan nyaman dipakai.</p>
-                    <p>Varian Rasa :</p>
-                    <ul>
-                        <li> Red velved</li>
-                        <li> chocholate cheese</li>
-                    </ul>
-                    <center><button>BUY NOW</button></center>
+            <div class="konten_cards">
+                <div class="card_new" style="background-image:url('https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&w=600');">
+                    <div class="card-overlay">
+                        <h4>Chiffon Mini cake</h4>
+                        <h2 style="color:#ff3838; ">Rp.150,000</h2>
+                        <p>Menghadirkan kelembutan dan rasa yag manis khas yang membuatmu ketagihan.</p>
+                        <p>Varian Rasa :</p>
+                        <ul>
+                            <li> Red velved</li>
+                            <li> chocholate cheese</li>
+                        </ul>
+                        <center><button>BUY NOW</button></center>
+                    </div>
                 </div>
-            </div>
-            <div class="card_new" style="background-image:url('https://images.pexels.com/photos/1291712/pexels-photo-1291712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');">
-                <div class="card-overlay">
-                    <h4>chocholate caramel cake</h4>
-                    <h2 style="color:#ff3838; ">Rp.250,000</h2>
-                    <p>Shirt dress warna navy-fuchsia ini memakai material bahan katun yang halus dan nyaman dipakai.</p>
-                    <p>Varian Rasa :</p>
-                    <ul>
-                        <li> Strwberry cheese</li>
-                        <li> pandan cheese</li>
-                    </ul>
-                    <center><button>BUY NOW</button></center>
+                <div class="card_new" style="background-image:url('https://images.pexels.com/photos/1291712/pexels-photo-1291712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');">
+                    <div class="card-overlay">
+                        <h4>chocholate caramel cake</h4>
+                        <h2 style="color:#ff3838; ">Rp.250,000</h2>
+                        <p>Paduan antara karamel dan kue coklat spons yang menggoda</p>
+                        <p>Varian Rasa :</p>
+                        <ul>
+                            <li> Strwberry cheese</li>
+                            <li> pandan cheese</li>
+                        </ul>
+                        <center><button>BUY NOW</button></center>
+                    </div>
                 </div>
-            </div>
-            <div class="card_new" style="background-image:url('https://images.pexels.com/photos/4669210/pexels-photo-4669210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');">
-                <div class="card-overlay">
-                    <h4>cookies almond chips</h4>
-                    <h2 style="color:#ff3838; ">Rp.90,000</h2>
-                    <p>Shirt dress warna navy-fuchsia ini memakai material bahan katun yang halus dan nyaman dipakai.</p>
-                    <p>Varian Rasa :</p>
-                    <ul>
-                        <li> blueberry</li>
-                        <li> caramel</li>
-                    </ul>
-                    <center><button>BUY NOW</button></center>
+                <div class="card_new" style="background-image:url('https://images.pexels.com/photos/4669210/pexels-photo-4669210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');">
+                    <div class="card-overlay">
+                        <h4>cookies almond chips</h4>
+                        <h2 style="color:#ff3838; ">Rp.90,000</h2>
+                        <p>Tampilannya yang menggoda sama seperti kenikmatan coklat yang didalamnya.</p>
+                        <p>Varian Rasa :</p>
+                        <ul>
+                            <li> blueberry</li>
+                            <li> caramel</li>
+                        </ul>
+                        <center><button>BUY NOW</button></center>
+                    </div>
                 </div>
-            </div>
             
+            </div>
         </div>
     </div>
-</div>
 
 
     <!-- PRODUCT END -->
